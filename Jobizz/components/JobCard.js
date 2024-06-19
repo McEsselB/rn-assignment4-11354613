@@ -25,11 +25,12 @@ const styles = StyleSheet.create({
     marginHorizontal: 10,
     borderColor: '#ccc',
     borderWidth: 1,
-    borderRadius: 10,
-    backgroundColor: '#1877F2',
-    height: 186,
-    width: 280,
+    borderRadius: 24,
+    height: 200,
+    width: 350,
     position: 'relative',
+    backgroundColor: '#4682b4', // Example background color, replace as needed
+    overflow: 'hidden', // Ensure the background color does not overflow the card boundaries
   },
   iconContainer: {
     position: 'absolute',
